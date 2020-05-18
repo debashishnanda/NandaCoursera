@@ -3,148 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-  align-content: center;
-}
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  background-color: yellow;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Open Sans;
-  color: black;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
+<title>HUNGRY?</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>Nanda's Indian Cuisine</h1>
 
 <div class="row">
   <div class="col-lg-3 col-md-6">
-  	<p>
-  		Chicken
-  		<br>
-  		Section title region: Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
-  	</p>
+  	<div id = "container">
+  		<p id = "p1">Mutton Rogan Josh</p>
+  		<p id = "menu">The literal translation for Rogan Josh, the name of this dish from Kashmir is "red lamb." The color comes from Kashmiri dry red chilies. While the name may sound fiery, the heat of the dish is toned down by the cream that is added at the end.The list of spices called for in this recipe may seem long, but a trip to your local international food market should set you up nicely. 
+  		</p>
+  	</div>
   </div>
   <div class="col-lg-3 col-md-6">
-  	<p>
-  		Chicken
-  		<br>
-  		Section title region: Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
-  	</p>
+  	<div id = "container">
+  		<p id = "p1">Tandoori Chicken</p>
+  		<p id = "menu">It's hard to find anyone who doesn't fall in love with tandoori chicken, that famous Indian barbecue chicken recipe. Although traditionally cooked in a clay oven, you can prepare the yogurt-marinated chicken in a regular oven (or on the grill). You do need to plan ahead, as the coated chicken should sit in the refrigerator for at least 6 hours or overnight.
+  		</p>
+  	</div>
   </div>
-  <div class="col-lg-3 col-md-6">
-  	<p>
-  		Chicken
-  		<br>
-  		Section title region: Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
-  	</p>
+  <div class="col-lg-3 col-md-12">
+  	<div id = "container">
+  		<p id = "p1">Chicken Tikka Masala</p>
+  		<p id = "menu">Chicken tikka masala is a delicious grilled chicken dish with a thick, creamy gravy that is unforgettable after the first bite. A tomato-yogurt sauce is spiced with chili, garlic, ginger, and garam masala, the ubiquitous Indian spice blend. The chicken is marinated overnight, grilled, and then gently cooked in a slightly smoky gravy.
+  		</p>
+  	</div>
   </div>
 </div>
 
