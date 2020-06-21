@@ -1,0 +1,51 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+div#container {
+  border: 1px solid black;
+  background-color: yellow;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  margin: 10px;
+}
+p#p1{
+  border: 1px solid black;
+  position: relative;
+  width: 30%;
+  height: 20%;
+  background-color: #AAFFFF;
+  text-align: center;
+  margin: auto;
+  left: 35%;
+}
+p#menu{
+  border: 1px solid black;
+  background-color: #0F0FFF;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Open Sans;
+  color: white;
+  /*text-align: center;*/
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+#navbar-header {
+  background-color: #f2b913;
+  border-radius: 0;
+  border : 0;
+}
