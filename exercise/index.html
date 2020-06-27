@@ -56,16 +56,13 @@
             // Iris dataset example. 
             const convertedTestingData = 
                     testingData.map(({xs, ys}) => {
-                        const labels = [
-                            ys.diagnosis
-                        ] 
-                        return{ xs: Object.values(xs), ys: Object.values(labels)};
+                        return{ xs: Object.values(xs), ys: Object.values(ys.diagnosis)};
                     })
 
             // Specify the number of features in the space below.
             // HINT: You can get the number of features from the number of columns
             // and the number of labels in the training data. 
-            const numOfFeatures = 30;
+            const numOfFeatures = [(await trainingData.columnNames()).length - 1,2];
             
                 
             // In the space below create a neural network that predicts 1 if the diagnosis is malignant
